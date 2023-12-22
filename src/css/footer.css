@@ -1,0 +1,374 @@
+.container {
+  width: 375px;
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+/*---------------------------------------------- Mobile---------------------------------------------------------------------- */
+@media screen and (max-width: 767px) {
+  .div-footer-section {
+    border-radius: 24px 24px 0px 0px;
+    background: #1b414b;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .footer-container {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    padding-right: 40px;
+  }
+
+  .footer-list-menu {
+    display: flex;
+    gap: 4px;
+    padding-left: 37px;
+  }
+  .footer-logo {
+    flex-shrink: 0;
+    color: #fbfbfb;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.42px;
+  }
+  .footer-menu-item {
+    display: flex;
+    width: 66px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(251, 251, 251, 0.3);
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-menu-link {
+    color: #fbfbfb;
+    text-align: center;
+    font-family: Inter;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 11.7px */
+    text-transform: uppercase;
+    padding: 15px 24px;
+  }
+
+  .footer-social-menu {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 40px;
+  }
+  .footer-review-description {
+    width: 279px;
+
+    color: #fbfbfb;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 18px */
+    letter-spacing: -0.36px;
+    margin-bottom: 82px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-last-row {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+  .footer-review-adwentures {
+    color: rgba(251, 251, 251, 0.4);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118%; /* 16.52px */
+    letter-spacing: 0.42px;
+  }
+  .footer-privacy-police {
+    color: rgba(251, 251, 251, 0.4);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118%; /* 16.52px */
+    letter-spacing: 0.42px;
+  }
+  .footer-menu-item:hover,
+  .footer-menu-item:focus {
+    background: #fbfbfb;
+  }
+  .footer-menu-link:hover,
+  .footer-menu-link:focus {
+    color: #1b414b;
+  }
+  .footer-social-icon-link {
+    fill: #fbfbfb;
+  }
+  .footer-social-icon-link:hover,
+  .footer-social-icon-link:focus {
+    fill: #fbfbfbcc;
+  }
+}
+/* -----------------------------------------------------Tablet --------------------------------------------------------------------*/
+@media screen and (min-width: 768px) {
+  .div-footer-section {
+    border-radius: 24px 24px 0px 0px;
+    background: #1b414b;
+    max-width: 736px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .footer-section-upper {
+    display: flex;
+    flex-direction: row;
+    padding-left: 48px;
+    padding-bottom: 96px;
+    padding-right: 48px;
+  }
+  .footer-container {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 91px;
+  }
+
+  .footer-list-menu {
+    display: flex;
+    gap: 4px;
+    padding-left: 106px;
+  }
+  .footer-logo {
+    flex-shrink: 0;
+    color: #fbfbfb;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.6px;
+  }
+  .footer-menu-item {
+    display: flex;
+    width: 91px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(251, 251, 251, 0.3);
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-menu-link {
+    color: #fbfbfb;
+    text-align: center;
+    font-family: Inter;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 11.7px */
+    text-transform: uppercase;
+    padding: 15px 24px;
+  }
+
+  .footer-social-menu {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+  .footer-review-description {
+    text-align: center;
+    width: 640px;
+    color: #fbfbfb;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 32px */
+    letter-spacing: -0.64px;
+    margin-bottom: 99px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-last-row {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+  .footer-review-adwentures {
+    color: rgba(251, 251, 251, 0.4);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118%; /* 16.52px */
+    letter-spacing: 0.42px;
+  }
+  .footer-privacy-police {
+    color: rgba(251, 251, 251, 0.4);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118%; /* 16.52px */
+    letter-spacing: 0.42px;
+  }
+
+  .footer-social-icons {
+    padding-top: 40px;
+  }
+  .footer-menu-item:hover,
+  .footer-menu-item:focus {
+    background: #fbfbfb;
+  }
+  .footer-menu-link:hover,
+  .footer-menu-link:focus {
+    color: #1b414b;
+  }
+  .footer-social-icon-link {
+    fill: #fbfbfb;
+  }
+  .footer-social-icon-link:hover,
+  .footer-social-icon-link:focus {
+    fill: #fbfbfbcc;
+  }
+}
+/*---------------------------------------------- Desktop-------------------------------------------------------------------- */
+@media screen and (min-width: 1280px) {
+  .div-footer-section {
+    border-radius: 24px 24px 0px 0px;
+    background: #1b414b;
+    max-width: 1230px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-section-upper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-bottom: 96px;
+    padding-right: 75px;
+  }
+  .footer-container {
+    display: flex;
+    padding-top: 50px;
+  }
+
+  .footer-list-menu {
+    display: flex;
+    gap: 4px;
+    padding-left: 326px;
+  }
+  .footer-logo {
+    flex-shrink: 0;
+    color: #fbfbfb;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.6px;
+  }
+  .footer-menu-item {
+    display: flex;
+    width: 91px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(251, 251, 251, 0.3);
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-menu-link {
+    color: #fbfbfb;
+    text-align: center;
+    font-family: Inter;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 11.7px */
+    text-transform: uppercase;
+    padding: 15px 24px;
+  }
+
+  .footer-social-menu {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+  .footer-review-description {
+    text-align: center;
+    width: 693px;
+    color: #fbfbfb;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 32px */
+    letter-spacing: -0.64px;
+    margin-bottom: 99px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-last-row {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+  .footer-review-adwentures {
+    color: rgba(251, 251, 251, 0.4);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118%; /* 16.52px */
+    letter-spacing: 0.42px;
+  }
+  .footer-privacy-police {
+    color: rgba(251, 251, 251, 0.4);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118%; /* 16.52px */
+    letter-spacing: 0.42px;
+  }
+  .footer-social-icons {
+    padding-top: 50px;
+  }
+}
