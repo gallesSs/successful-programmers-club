@@ -4,4 +4,161 @@
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.about-container {
+  background-color: #0E1823;
+  max-width: 375px;
+  padding: 0px 20px;
+}
+
+.about {
+  max-width: 100%;
+  border-radius: 24px;
+  background: #FBFBFB;
+}
+
+.about-text-content {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.about-title {
+  color: #1B414B;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+
+.about-text-1 {
+  color: #1B414B;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  padding-bottom: 20px;
+}
+
+.about-text-2 {
+  color: #040306;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+}
+
+.about-img-blok {
+  background-color: #0E1823;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+img {
+  border-radius: 24px;
+}
+
+.about-img-laptop1,
+.about-img-laptop2,
+.about-img-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .about-container {
+    max-width: 768px;
+    padding: 0px 32px;
+  }
+
+  .about-img-laptop1,
+  .about-img-laptop2,
+  .about-img-mobile {
+    display: none;
+  }
+
+  .about-img-desktop {
+    display: block;
+  }
+
+  .about-text-content {
+    padding-top: 50px;
+    padding-left: 32px;
+    padding-right: 136px;
+    padding-bottom: 50px;
+  }
+
+  .about-title {
+    width: 536px;
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+
+  .about-text-list {
+    width: 389px;
+  }
+
+  .about-text-1 {
+    font-size: 23px;
+  }
+
+  .about-text-2 {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-container {
+    max-width: 1280px;
+    padding: 0px 50px;
+  }
+
+  .about-img-desktop,
+  .about-img-mobile,
+  .about-img-laptop2 {
+    display: none;
+  }
+
+  .about-img-laptop1 {
+    display: block;
+  }
+
+  .about-text-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+  }
+
+  .about-title {
+    width: 537px;
+  }
+
+  .about-text-list {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-container {
+    max-width: 1440px;
+  }
+
+  .about-img-desktop,
+  .about-img-mobile,
+  .about-img-laptop1 {
+    display: none;
+  }
+
+  .about-img-laptop2 {
+    display: block;
+  }
+
+  .about-text-list {
+    width: 404px;
+  }
 }
