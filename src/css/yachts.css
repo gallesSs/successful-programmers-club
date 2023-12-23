@@ -1,0 +1,78 @@
+.our-yachts {
+  padding: 28px 20px;
+  background-color: var(--main-bg-color);
+}
+.our-yachts-container {
+}
+.divone {
+  display: flex;
+}
+.our-yachts-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.list-yacht-item {
+  border-radius: 25px;
+  background-color: var(--our-yachts-card-bg-color);
+  max-width: 354px;
+  padding: 16px 16px;
+}
+.our-yacht-img {
+  border-radius: 25px;
+}
+.team-img {
+  border-radius: 25px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+.wrapper-list_item {
+  padding: 8px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper-list-item_content {
+  padding: 8px 0px;
+}
+.border {
+  border-bottom: 1px solid rgba(4, 3, 6, 0.1);
+}
+
+.wrapper-list-item_text {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0px 16px 0px;
+}
+.gap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
