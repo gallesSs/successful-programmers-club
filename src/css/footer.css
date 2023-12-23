@@ -1,12 +1,7 @@
 .container {
   width: 375px;
 }
-.list {
-  list-style-type: none;
-}
-.link {
-  text-decoration: none;
-}
+
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
