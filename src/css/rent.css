@@ -1,0 +1,117 @@
+body {
+  color: var(--basic-white);
+  background-color: var(--first-blue);
+}
+:root {
+  --first-blue: #0e1823;
+  --primary-blue: #040306;
+  --first-button: #1b414b;
+  --basic-white: #fbfbfb;
+}
+.rent-yacht {
+  display: flex;
+  max-height: 536px;
+}
+.rent-pt-one {
+  display: flex;
+}
+.rent-pt-second {
+  margin-left: 50px;
+}
+.label-rent {
+  width: Hug 472px;
+  height: Hug 54px;
+  padding: 18px, 418px, 18px, 18px;
+  border-radius: 12px;
+  border: 1px;
+  gap: 18px;
+  angle: -0 deg;
+}
+.rent-h {
+  margin: 0 auto;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+  color: var(--basic-white);
+  font-style: normal;
+  letter-spacing: -0.96px;
+}
+.rent-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 50px;
+  height: 332px;
+  width: 478px;
+  margin-top: 50px;
+}
+.rent-inp {
+  width: 472px;
+  height: 54px;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-width: 1px;
+  background-color: var(--first-blue);
+  padding-left: 18px;
+  font-size: 14px;
+  color: rgba(251, 251, 251, 0.4);
+  font-size: 14px;
+  font-weight: 400px;
+  font-style: normal;
+}
+.area-inp {
+  width: 472px;
+  height: 116px;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-width: 1px;
+  background-color: var(--first-blue);
+  padding-left: 18px;
+  padding-top: 18px;
+  font-size: 14px;
+  font-weight: 400px;
+  font-style: normal;
+}
+.label-one {
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--first-blue);
+}
+.image-rent-1x {
+  border-radius: 24px;
+}
+.container-rent {
+  padding-left: 50px;
+  padding-top: 150px;
+  padding-bottom: 152px;
+}
+.submit-form {
+  display: inline-flex;
+  padding: 18px 75px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--first-button);
+  border: none;
+  border-radius: 15px;
+  color: var(--basic-white);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.36px;
+}
+
+.submit-form:hover {
+  color: var(--primary-blue);
+  background-color: var(--basic-white);
+}
+.submit-form:focus {
+  color: var(--primary-blue);
+  background-color: var(--basic-white);
+}
+=======================================================================================================================================
+DESKTOP
+=======================================================================================================================================
+
