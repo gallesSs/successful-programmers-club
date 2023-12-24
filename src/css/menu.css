@@ -8,6 +8,13 @@
   background-color: #0e1823;
 }
 
+.is-hidden {
+  visibility: hidden;
+  /* z-index: 100; */
+  opacity: 0;
+  pointer-events: none;
+}
+
 .menu-wrapper {
   display: flex;
   justify-content: space-between;
