@@ -173,3 +173,25 @@
   }
 }
 /* ========================== /DESKTOP HEADER STYLES========================== */
+
+.header-mobile-menu-close {
+  position: absolute;
+  display: none;
+  z-index: 999;
+}
+
+.header-mobile-menu-open-btn:active,
+.header-mobile-menu-open-btn:focus .header-mobile-menu-close {
+  display: block;
+  opacity: 1;
+}
+
+.header-mobile-menu-open-btn:active,
+.header-mobile-menu-open-btn:focus .mobile-menu-open-btn-icon {
+  opacity: 0;
+}
+
+.header-mobile-menu-close > .close-link:active,
+.close-link:focus .mobile-menu-open-btn-icon {
+  opacity: 1;
+}
