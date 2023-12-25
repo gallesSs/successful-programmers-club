@@ -1,14 +1,16 @@
 /* ========================== MOBILE HEADER STYLES========================== */
 .header {
-  position: sticky;
+  position: fixed;
   padding-top: 20px;
+  z-index: 999;
+  width: 90%;
+  left: 20px;
 }
 
 .header-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  max-width: 90%;
   background-color: #fbfbfb;
   border-radius: 8px;
   border: 1px solid #fbfbfb;
