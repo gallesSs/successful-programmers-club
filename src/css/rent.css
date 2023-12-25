@@ -135,6 +135,7 @@ TABLET 768px
     max-width: 768px;
     padding-left: 32px;
     display: flex;
+    flex-direction: column;
     padding-bottom: 100px;
     align-items: start;
   }
@@ -158,6 +159,7 @@ MOBILE 375px
 @media screen and (min-width: 375px) {
   .container-rent {
     display: flex;
+    flex-direction: column;
     max-width: 375px;
     padding-left: 20px;
     padding-top: 80px;
