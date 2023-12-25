@@ -111,3 +111,73 @@ body {
   background-color: var(--basic-white);
 }
 
+  .image-rent-1x {
+    max-width: 658px;
+  }
+
+/*=======================================================================================================================================
+TABLET 768px
+=======================================================================================================================================*/
+
+@media screen and (min-width: 768px) {
+  .container-rent {
+    max-width: 768px;
+    padding-left: 32px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    align-items: start;
+  }
+
+  .rent-form {
+    width: 473px;
+  }
+  .submit-form {
+    display: inline-flex;
+    justify-content: center;
+  }
+  .image-rent-1x {
+    width: 768px;
+    height: 534px;
+  }
+}
+
+/*=======================================================================================================================================
+MOBILE 375px
+=======================================================================================================================================*/
+@media screen and (min-width: 375px) {
+  .container-rent {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    padding-left: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    align-items: start;
+  }
+
+  .rent-h {
+    font-size: 28px;
+    margin: 0 auto;
+  }
+
+  .rent-form {
+    width: 335px;
+    margin-top: 40px;
+  }
+
+  .image-rent-1x {
+    width: 335px;
+    height: 412px;
+    flex-shrink: 0;
+    border-radius: 15px;
+  }
+
+  .submit-form {
+    width: 122px;
+    height: 46px;
+    padding: 14px, 44px, 14px, 44px;
+    border-radius: 15px;
+  }
+}
+
