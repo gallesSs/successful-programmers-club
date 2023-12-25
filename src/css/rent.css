@@ -111,9 +111,9 @@ body {
   background-color: var(--basic-white);
 }
 
-  .image-rent-1x {
-    max-width: 658px;
-  }
+.image-rent-1x {
+  max-width: 658px;
+}
 
 /*=======================================================================================================================================
 TABLET 768px
@@ -139,6 +139,18 @@ TABLET 768px
   .image-rent-1x {
     width: 768px;
     height: 534px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container-rent {
+    max-width: 1280px;
+    padding-top: 150px;
+    padding-bottom: 152px;
+    padding-left: 50px;
+  }
+
+  .image-rent-1x {
+    max-width: 658px;
   }
 }
 
@@ -180,4 +192,3 @@ MOBILE 375px
     border-radius: 15px;
   }
 }
-
