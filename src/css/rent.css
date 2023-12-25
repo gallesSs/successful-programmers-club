@@ -12,10 +12,10 @@ body {
   display: flex;
   max-height: 536px;
 }
-.rent-pt-one {
+.rentdiv-part-first {
   display: flex;
 }
-.rent-pt-second {
+.rentdiv-part-second {
   margin-left: 50px;
 }
 .label-rent {
@@ -42,7 +42,7 @@ body {
   gap: 18px;
   margin-bottom: 50px;
   height: 332px;
-  width: 478px;
+  width: 472px;
   margin-top: 50px;
 }
 .rent-inp {
@@ -110,3 +110,4 @@ body {
   color: var(--primary-blue);
   background-color: var(--basic-white);
 }
+
