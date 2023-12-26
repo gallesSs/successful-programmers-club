@@ -7,6 +7,11 @@
   margin: 0 auto;
 }
 
+.header-svg {
+  fill: #1b414b;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .header-container {
   display: flex;
   flex-direction: row;
@@ -134,11 +139,6 @@
 
   .header-social-media-list-item-link {
     text-decoration: none;
-  }
-
-  .header-svg {
-    fill: #1b414b;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-svg:hover,
