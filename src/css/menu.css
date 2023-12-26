@@ -90,3 +90,8 @@
 .mobile_svg:focus {
   fill: #062730;
 }
+
+.menu-header {
+  position: fixed;
+  z-index: 9999999;
+}
