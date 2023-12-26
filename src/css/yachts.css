@@ -34,10 +34,9 @@
   padding: 32px;
 }
 .title-detail-our-yacht {
-  position: relative;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  position: relative;
   padding-bottom: 16px;
 }
 .title-detail-our-yacht::after {
@@ -55,15 +54,17 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1.18;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
 }
 
 .our-yacht-segment {
   color: #040306;
   font-size: 12px;
-  line-height: 1, 16;
-  letter-spacing: 0, 03em;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   opacity: 0.4;
+  text-transform: uppercase;
 }
 
 .our-yacht-info {
@@ -77,8 +78,23 @@
 }
 
 .our-yacht-info-details-left {
+  color: #040306;
   text-transform: uppercase;
   opacity: 0.4;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 1.18;
+  letter-spacing: 0.03;
+}
+
+.our-yacht-info-details-right {
+  display: flex;
+  flex-direction: column;
+  color: #040306;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .benetti {
