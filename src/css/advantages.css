@@ -1,0 +1,136 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advantades-wrapper {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advantades-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.advantades-point {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #1b414b;
+  border-radius: 24px;
+  margin-bottom: 20px;
+  padding: 80px 20px;
+}
+.advantades-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.list {
+  position: relative;
+  width: calc((100% - 0) / 1);
+}
+.advantades-number {
+  color: #fbfbfb;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+.advantades-text {
+  color: #fbfbfb;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  opacity: 0.8;
+}
+.first-text {
+  width: 238px;
+}
+.advantades-number::after {
+  content: '';
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  max-width: 295px;
+  height: 2px;
+  border-radius: 18px;
+  background: rgba(251, 251, 251, 0.1);
+}
+.advantages-picture {
+  border-radius: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .advantades-wrapper {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .advantades-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .advantades-point {
+    max-width: 768px;
+    margin-bottom: 32px;
+    padding: 90px 32px;
+  }
+  .advantades-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 704;
+    gap: 44px 32px;
+  }
+  .list {
+    position: relative;
+    width: calc((100% - 32px) / 2);
+  }
+  .advantades-number {
+    font-size: 32px;
+  }
+  .advantades-text {
+    font-size: 13px;
+    line-height: 1.15;
+    width: 292px;
+  }
+  .first-text {
+    width: 238px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantades-wrapper {
+    display: flex;
+    column-gap: 32px;
+    max-width: 1280px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .advantades-point {
+    min-width: 716px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .list {
+    position: relative;
+    width: calc((100% - 44px) / 2);
+  }
+}
